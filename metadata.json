@@ -1,0 +1,6 @@
+{
+  "name": "SIM-ASRAMA - Sistem Informasi Manajemen Asrama Santri",
+  "description": "Aplikasi web fullstack Sistem Informasi Manajemen Asrama Siswa dan Santri (SIM-ASRAMA) dengan manajemen santri, pelanggaran, konseling, prestasi, keuangan SPP, perizinan kamar, dan kontrol akses berbasis peran (RBAC).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
