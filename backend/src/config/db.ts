@@ -14,7 +14,9 @@ import {
   ActivityLogRecord,
 } from '../db/schema.ts';
 
-const DATA_DIR = path.resolve(process.cwd(), '.data');
+const DATA_DIR = process.env.VERCEL
+  ? path.join('/tmp', 'sim-asrama-data')
+  : path.resolve(process.cwd(), '.data');
 const DB_FILE = path.join(DATA_DIR, 'sim-asrama-db.json');
 
 const initialEmptyState: DatabaseState = {
